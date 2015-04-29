@@ -1,0 +1,27 @@
+{
+  "name": "wildmill",
+  "version": "1.0.0",
+  "description": "Windmill in node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bundz/wildmill.git"
+  },
+  "keywords": [
+    "node",
+    "windmill"
+  ],
+  "author": "Vitor Alano de Ataides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundz/wildmill/issues"
+  },
+  "homepage": "https://github.com/bundz/wildmill",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
