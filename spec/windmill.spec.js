@@ -299,11 +299,8 @@ describe("Windmill", function () {
         describe("then swaping until forms a windmill", function () {
          
           windmill.swapByIndex(16, 2);
-          console.log(windmill.windmillFormed(2));
           windmill.changeStateByMove(9,"down");
           windmill.swapByIndex(18, 23);
-          
-          
           
           it("movement should be removing", function () {
             
